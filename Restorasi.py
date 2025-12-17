@@ -141,8 +141,8 @@ def main():
     # Daftar citra yang akan direstorasi
     citra_list = {
         # RGB
-        "rgb_landscape": "landscape.jpg",  # Ganti dengan file RGB landscape Anda
-        "rgb_potrait": "potrait.jpg",    # Ganti dengan file RGB potrait Anda
+        "rgb_landscape": "landscape.jpg",  
+        "rgb_potrait": "potrait.jpg",    
         # Grayscale
         "grayscale_landscape": "grayscale_landscape.jpg",
         "grayscale_potrait": "grayscale_potrait.jpg"
@@ -306,4 +306,5 @@ def main():
     print("=" * 70)
 
 if __name__ == "__main__":
+
     main()
